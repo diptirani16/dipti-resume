@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Box, AppBar, Toolbar, List, ListItemButton, ListItemText } from '@mui/material';
+import { Container, AppBar, Toolbar, List, ListItemButton, ListItemText } from '@mui/material';
 
 function Header () {
     return (

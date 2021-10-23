@@ -36,19 +36,19 @@ function Home() {
                             <Email size="small" sx={{ mr: 2, mt: 1 }} />kdipti.rani@gmail.com <br />
                             <Room size="small" sx={{ mr: 2, mt: 1 }} />Katni, Madhya Pradesh
                         </Box> <br />
-                        <Box sx={{ mt: 4, display: 'flex', justifyContent: 'space-around', width: '18vw' }}>
-                            <IconButton sx={{ color: 'white' }} component="span">
+                        <Box sx={{ mt: 4, display: 'flex', justifyContent: 'space-around', width: '15vw' }}>
+                            <a href="https://github.com/diptirani16/" target="_blank"><IconButton sx={{ color: 'white' }} component="span">
                                 <GitHub />
-                            </IconButton>
-                            <IconButton sx={{ color: 'white' }} component="span">
+                            </IconButton></a>
+                            <a href="https://www.linkedin.com/in/dipti-rani/" target="_blank"><IconButton sx={{ color: 'white' }} component="span">
                                 <LinkedIn />
-                            </IconButton>
-                            <IconButton sx={{ color: 'white' }} component="span">
+                            </IconButton></a>
+                            <a href="https://twitter.com/Dipti_Rani16" target="_blank"><IconButton sx={{ color: 'white' }} component="span">
                                 <Twitter />
-                            </IconButton>
-                            <IconButton sx={{ color: 'white' }} component="span">
+                            </IconButton></a>
+                            <a href="https://www.instagram.com/_dipti.rani_/" target="_blank"><IconButton sx={{ color: 'white' }} component="span">
                                 <Instagram />
-                            </IconButton>
+                            </IconButton></a>
                         </Box>
                     </Grid>
                 </Grid>

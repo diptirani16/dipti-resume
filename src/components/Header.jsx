@@ -5,7 +5,7 @@ function Header () {
     return (
         <>
             <Container fixed>
-                        <AppBar position="fixed" color="transparent" elevation={0}>
+                        <AppBar position="fixed" style={{ backgroundColor: '#1d2129' }} elevation={0}>
                             <Toolbar sx={{ display: 'flex', justifyContent: 'center' }}>
                                 <List component="nav" aria-label="secondary mailbox folder" style={{ display: 'flex', flexDirection: 'row' }}>
                                     <ListItemButton >

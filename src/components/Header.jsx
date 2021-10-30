@@ -12,9 +12,6 @@ function Header () {
                                         <ListItemText primary="Home" />
                                     </ListItemButton>
                                     <ListItemButton >
-                                        <ListItemText primary="About" />
-                                    </ListItemButton>
-                                    <ListItemButton >
                                         <ListItemText primary="Education" />
                                     </ListItemButton>
                                     <ListItemButton >
@@ -25,6 +22,9 @@ function Header () {
                                     </ListItemButton>
                                     <ListItemButton >
                                         <ListItemText primary="Skills" />
+                                    </ListItemButton>
+                                    <ListItemButton >
+                                        <ListItemText primary="Experience" />
                                     </ListItemButton>
                                     <ListItemButton >
                                         <ListItemText primary="Contact" />

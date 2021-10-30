@@ -16,7 +16,7 @@ function Education() {
     return (
         <>
             <Container>
-                <Typography variant="h4" style={{ fontWeight: 'bolder', letterSpacing: '1px', textAlign: 'center' }} component="div">EDUCATION</Typography>
+                <Typography variant="h4" style={{ fontWeight: 'bolder', letterSpacing: '1px', textAlign: 'center', color: '#90a0d9' }} component="div">EDUCATION</Typography>
                 <Card style={cardStyle} elevation="5">
                 <CardMedia component="img" sx={{ width: 151 }} image={kitsLogo} alt="GGPS" />
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>

@@ -1,29 +1,33 @@
 import React from 'react';
-import { Container, Typography, Button } from '@mui/material';
+import { Typography, Button, Grid } from '@mui/material';
 
-function Skills () {
+function Skills() {
 
-    const skillsList = ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'MySQL', 'Git', 'Api Integration', 'C++', 'Bootstrap', 'Material UI' ]
+    const skillsList = ['HTML', 'CSS', 'JavaScript', 'ReactJs', 'NodeJS', 'ExpressJS', 'JavaScript Algorithm', 'Data Structure', 'MySQL', 'Unit testing', 'Functional testing', 'Git', 'Api Integration', 'C++', 'Docker', 'MongoDB', 'Bootstrap', 'Material UI']
 
     const buttonStyle = {
         margin: '2%',
         backgroundColor: 'rgb(36, 41, 51)',
-        textTransform: 'none'
+        textTransform: 'none',
+        padding: '1% 1.5%',
+        cursor: 'default'
     }
 
     return (
         <>
-            <Container sx={{ textAlign: 'center' }}>
-                <Typography variant="h4" style={{ fontWeight: 'bolder', letterSpacing: '1px', textAlign: 'center', color: '#90a0d9' }} component="div">
-                    SKILLS
-                </Typography>
-                <Container maxWidth="sm" sx={{ margin: '5% auto' }}>
-                    { skillsList.map(skill => {
+            <Grid container maxWidth="md" sx={{ textAlign: 'center', margin: '5% auto' }}>
+                <Grid item>
+                    <Typography variant="h5" sx={{ mb: 4, fontWeight: 'bolder', color: '#90a0d9' }} component="div">
+                        TECHNOLOGIES
+                    </Typography>
+                
+                    {skillsList.map(skill => {
                         return <Button variant="contained" style={buttonStyle}>{skill}</Button>
-                        })
+                    })
                     }
-                </Container>
-            </Container>
+
+                </Grid>
+            </Grid>
         </>
     )
 }

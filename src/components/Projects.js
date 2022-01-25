@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Card, CardContent, CardActions, Button } from '@mui/material';
 
-function Certification() {
+function Projects() {
 
     const cardStyle = {
         maxHeight: '30vh',
@@ -11,11 +11,11 @@ function Certification() {
 
     return (
         <>
-            <Typography variant="h5" style={{ fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9' }} component="div">
-                CERTIFICATIONS
+            <Typography variant="h5" style={{ marginTop: '4%', fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9' }} component="div">
+                PROJECTS
             </Typography>
             <Grid container spacing={2} sx={{ mt: 2, mb: 2 }}>
-                <Grid item md={6} xs={12}>
+                <Grid item md={12} xs={12}>
                     <Card style={cardStyle} elevation={4}>
                         <CardContent sx={{ flex: '1 0 auto', pl: 6 }}>
                             <Typography component="div" sx={{ fontWeight: '800' }} variant="subtitle1">
@@ -29,7 +29,7 @@ function Certification() {
                     </Card>
                 </Grid>
 
-                <Grid item md={6} xs={12}>
+                <Grid item md={12} xs={12}>
                     <Card style={cardStyle} elevation={4}>
                         <CardContent sx={{ flex: '1 0 auto', pl: 6 }}>
                             <Typography component="div" sx={{ fontWeight: '800' }} variant="subtitle1">
@@ -43,7 +43,7 @@ function Certification() {
                     </Card>
                 </Grid>
 
-                <Grid item md={6} xs={12}>
+                <Grid item md={12} xs={12}>
                     <Card style={cardStyle} elevation={4}>
                         <CardContent sx={{ flex: '1 0 auto', pl: 6 }}>
                             <Typography component="div" sx={{ fontWeight: '800' }} variant="subtitle1">
@@ -57,7 +57,7 @@ function Certification() {
                     </Card>
                 </Grid>
 
-                <Grid item md={6} xs={12}>
+                <Grid item md={12} xs={12}>
                     <Card style={cardStyle} elevation={4}>
                         <CardContent sx={{ flex: '1 0 auto', pl: 6 }}>
                             <Typography component="div" sx={{ fontWeight: '800' }} variant="subtitle1">
@@ -76,4 +76,4 @@ function Certification() {
     )
 }
 
-export default Certification;
+export default Projects;

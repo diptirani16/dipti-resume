@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Card, CardContent, CardActions, Button } from '@mui/material';
+import { Grid, Typography, Card, CardContent, Button } from '@mui/material';
 
 function Certification() {
 

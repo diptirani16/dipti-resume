@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, AppBar, Toolbar, List, ListItemButton, ListItemText, Grid, Menu, MenuItem, IconButton, Typography } from '@mui/material';
+import { Container, AppBar, Toolbar, List, ListItemButton, ListItemText, Grid, IconButton, Typography } from '@mui/material';
 import { Drawer, Divider, ListItem } from '@mui/material';
-import { Dehaze, ChevronLeft, ChevronRight } from '@mui/icons-material';
+import { Dehaze, ChevronLeft } from '@mui/icons-material';
 import { useHistory } from 'react-router-dom';
 
 function Header() {

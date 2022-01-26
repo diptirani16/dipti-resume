@@ -6,7 +6,6 @@ import Certification from './components/Certification';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { Container } from '@mui/material';
 
 import {
   BrowserRouter as Router,

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Button, IconButton, Card } from '@mui/material';
-import { GitHub } from '@mui/icons-material';
+import { Grid, Typography, Button } from '@mui/material';
 
 function Home() {
 
@@ -20,9 +19,6 @@ function Home() {
                     <Button href="#" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' }}>
                         Download CV
                     </Button>
-                    {/* <IconButton aria-label="delete" size="large"  href="https://github.com/diptirani16/" target="_blank">
-                        <GitHub fontSize="inherit" style={{ color: 'white' }} />
-                    </IconButton> */}
                 </Grid>
             </Grid>
         </>

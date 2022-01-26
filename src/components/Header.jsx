@@ -63,7 +63,7 @@ function Header() {
                                     ))}
                                 </List>
                             </Grid>
-                            <Grid item xs={12} sx={{ display: { xs: 'block', md: 'none' }, p: 0 }}>
+                            <Grid item xs={12} sx={{ display: { xs: 'block', md: 'none' } }}>
                                 <IconButton aria-label="more" id="long-button" aria-controls="long-menu" aria-expanded={open ? 'true' : undefined} aria-haspopup="true" onClick={handleClick} >
                                     <Dehaze style={{ color: '#90a0d9' }} />
                                 </IconButton>

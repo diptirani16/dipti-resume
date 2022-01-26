@@ -17,8 +17,8 @@ function Home() {
                     </Typography>
                 </Grid>
                 <Grid item sx={{ mt: 4,  }}>
-                    <Button href="https://drive.google.com/file/d/1wFOrYl2QsqOW_OMBg-sIe7Kptcsi_Wlt/view?usp=sharing" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' }}>
-                        Resume
+                    <Button href="#" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' }}>
+                        Download CV
                     </Button>
                     {/* <IconButton aria-label="delete" size="large"  href="https://github.com/diptirani16/" target="_blank">
                         <GitHub fontSize="inherit" style={{ color: 'white' }} />

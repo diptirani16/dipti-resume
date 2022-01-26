@@ -11,7 +11,7 @@ function Projects() {
 
     return (
         <>
-            <Typography variant="h5" style={{ marginTop: '4%', fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9' }} component="div">
+            <Typography variant="h5" sx={{ marginTop: '4%', fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9', mt: 10 }} component="div">
                 PROJECTS
             </Typography>
             <Grid container spacing={2} sx={{ mt: 2, mb: 2 }}>

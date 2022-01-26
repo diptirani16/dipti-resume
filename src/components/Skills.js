@@ -17,7 +17,7 @@ function Skills() {
         <>
             <Grid container maxWidth="md" sx={{ textAlign: 'center', margin: '5% auto' }}>
                 <Grid item>
-                    <Typography variant="h5" sx={{ mb: 4, fontWeight: 'bolder', color: '#90a0d9' }} component="div">
+                    <Typography variant="h5" sx={{ mb: 4, fontWeight: 'bolder', color: '#90a0d9', mt: 10 }} component="div">
                         TECHNOLOGIES
                     </Typography>
                 

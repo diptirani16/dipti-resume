@@ -1,21 +1,12 @@
 import React from 'react';
-import { Grid, Typography, Button, IconButton } from '@mui/material';
+import { Grid, Typography, Button, IconButton, Card } from '@mui/material';
 import { GitHub } from '@mui/icons-material';
 
 function Home() {
 
-    const homeStyle = {
-        display: 'flex',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        height: '100vh',
-        alignItems: 'center',
-        textAlign: 'center',
-    }
-
     return (
         <>
-            <Grid container style={homeStyle}>
+            <Grid container flexDirection="column" alignItems="center" sx={{ mt: 15, p: 2 }} >
                 <Grid item xs={12} md={6}>
                     <Typography variant="h2" style={{ fontWeight: 'bolder', letterSpacing: '1px' }} component="div">Hi, I am <span style={{ color: "#90a0d9" }}>Dipti Rani.</span></Typography>
                     
@@ -25,8 +16,8 @@ function Home() {
                         Ambitious and motivated self taught developer , looking to start a career in web development by building web applications and softwares . I am familiar to developing and deploying projects with various web technologies .
                     </Typography>
                 </Grid>
-                <Grid item sx={{ mt: 2 }}>
-                    <Button href="https://drive.google.com/file/d/1wFOrYl2QsqOW_OMBg-sIe7Kptcsi_Wlt/view?usp=sharing" target="_blank" variant="outlined" style={{ padding: '2vh 2vw', color: '#90a0d9', borderColor: '#90a0d9' }}>
+                <Grid item sx={{ mt: 4,  }}>
+                    <Button href="https://drive.google.com/file/d/1wFOrYl2QsqOW_OMBg-sIe7Kptcsi_Wlt/view?usp=sharing" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' }}>
                         Resume
                     </Button>
                     {/* <IconButton aria-label="delete" size="large"  href="https://github.com/diptirani16/" target="_blank">

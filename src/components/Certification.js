@@ -11,7 +11,7 @@ function Certification() {
 
     return (
         <>
-            <Typography variant="h5" style={{ fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9' }} component="div">
+            <Typography variant="h5" sx={{ fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9', mt: 10 }} component="div">
                 CERTIFICATIONS
             </Typography>
             <Grid container spacing={2} sx={{ mt: 2, mb: 2 }}>

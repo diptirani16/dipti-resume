@@ -11,7 +11,7 @@ function Education() {
 
     return (
         <>
-            <Typography variant="h5" style={{ fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9' }} component="div">EDUCATION</Typography>
+            <Typography variant="h5" sx={{ fontWeight: 'bolder', textAlign: 'center', color: '#90a0d9', mt: 10 }} component="div">EDUCATION</Typography>
             <Grid container spacing={2} sx={{ mt: 2 }}>
                 <Grid item md={6} xs={12}>
                     <Card style={cardStyle} elevation={4}>

@@ -10,18 +10,15 @@ import { Container } from '@mui/material';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Route
 } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+    <Router>
       <Header />
       {/* <Container maxWidth="lg" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}> */}
-    <Router>
       <Switch>
         <Route exact path="/">
           <HomePage />
@@ -37,6 +34,9 @@ function App() {
         </Route>
         <Route exact path="/projects">
           <Projects />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Switch>
     </Router>

@@ -6,12 +6,12 @@ export default function Contact() {
     
     return(
         <>
-        <Grid container spacing={2} sx={{ pl: 4, mt: 8}}>
+        <Grid container spacing={2} sx={{ pl: 4, mt: 8}} alignItems="center">
             <Grid item>
-                <Divider orientation="vertical" sx={{background: "white", p: 0.3, height: 30 }} flexItem/>
+                <Divider orientation="vertical" sx={{background: "linear-gradient(#5067b7 , white)", p: 0.3, height: 35 }} />
             </Grid>
             <Grid item>
-                <Typography variant="h4" color="#90a0d9" sx={{ml: 1, fontWeight: 900}}>Contact</Typography>
+                <Typography variant="h4" color="#90a0d9" sx={{ml: 0.5, fontWeight: 900}}>Contact</Typography>
             </Grid>
         </Grid>
 

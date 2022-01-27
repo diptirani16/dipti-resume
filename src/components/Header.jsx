@@ -38,8 +38,6 @@ function Header() {
         }
     ]
 
-    // const [anchorEl, setAnchorEl] = React.useState(null);
-    // const open = Boolean(anchorEl);
     const [open, setOpen] = React.useState(false);
     const handleClick = (event) => {
         setOpen(true);
@@ -73,7 +71,7 @@ function Header() {
                                         flexShrink: 0,
                                         '& .MuiDrawer-paper': {
                                             width: 240,
-                                            backgroundColor: "#dbdbdb"
+                                            backgroundColor: "#bbb9b9"
                                         }
                                     }} variant="persistent" anchor="left" open={open} >
                                     <IconButton onClick={handleClose} sx={{display: 'flex', justifyContent: "space-between"}}>
@@ -83,7 +81,7 @@ function Header() {
                                         </div>
                                         <ChevronLeft />
                                     </IconButton>
-                                    <Divider />
+                                    <Divider sx={{p: 0.2, background: "linear-gradient(to right, #5067b7 , black)"}} />
                                     <List>
                                         {listItem.map((text, index) => (
                                             <div key={index}>

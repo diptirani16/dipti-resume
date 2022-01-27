@@ -9,7 +9,7 @@ function Home() {
                 <Grid item xs={12} md={6}>
                     <Typography variant="h2" style={{ fontWeight: 'bolder', letterSpacing: '1px' }} component="div">Hi, I am <span style={{ color: "#90a0d9" }}>Dipti Rani.</span></Typography>
                     
-                    <Typography variant="h4" style={{ fontWeight: 'bolder', letterSpacing: '1px', marginTop: '3%' }} component="div">Front End <span style={{ color: "#90a0d9" }}> Developer. </span></Typography>
+                    <Typography variant="h4" style={{ fontWeight: 'bolder', letterSpacing: '1px', marginTop: '3%' }} component="div">Full Stack <span style={{ color: "#90a0d9" }}> Developer. </span></Typography>
                     
                     <Typography variant="body1" style={{  marginTop: '3%', letterSpacing: '1px' }}>
                         Ambitious and motivated self taught developer, looking to start a career in web development by building web applications and softwares. I am familiar to developing and deploying projects with various web technologies.

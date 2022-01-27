@@ -6,7 +6,7 @@ export default function Contact() {
     
     return(
         <>
-        <Grid container spacing={2} sx={{ pl: 4, mt: 8}} alignItems="center">
+        <Grid container spacing={2} sx={{ pl: 4, mt: 8, ml: {md: 5, xs: -2}}} alignItems="center">
             <Grid item>
                 <Divider orientation="vertical" sx={{background: "linear-gradient(#5067b7 , white)", p: 0.3, height: 35 }} />
             </Grid>

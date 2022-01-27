@@ -62,7 +62,7 @@ function Header() {
                                 </List>
                             </Grid>
                             <Grid item xs={12} sx={{ display: { xs: 'block', md: 'none' } }}>
-                                <IconButton aria-label="more" id="long-button" aria-controls="long-menu" aria-expanded={open ? 'true' : undefined} aria-haspopup="true" onClick={handleClick} >
+                                <IconButton sx={{ml: -3 }} aria-label="more" id="long-button" aria-controls="long-menu" aria-expanded={open ? 'true' : undefined} aria-haspopup="true" onClick={handleClick} >
                                     <Dehaze style={{ color: '#90a0d9' }} />
                                 </IconButton>
                                 <Drawer
@@ -77,7 +77,7 @@ function Header() {
                                     <IconButton onClick={handleClose} sx={{display: 'flex', justifyContent: "space-between"}}>
                                         <div style={{display: 'flex', flexDirection: "column", alignItems: "start", paddingLeft: 8}}>
                                             <Typography variant="h5" color="black" sx={{ fontWeight: 800 }}>Dipti Rani</Typography>
-                                            <Typography variant="caption" sx={{ fontWeight: 800, opacity: 1, color: "#5067b7" }}>Software Developer</Typography>
+                                            <Typography variant="caption" sx={{ fontWeight: 800, opacity: 1, color: "#5067b7" }}>Full Stack Developer</Typography>
                                         </div>
                                         <ChevronLeft />
                                     </IconButton>

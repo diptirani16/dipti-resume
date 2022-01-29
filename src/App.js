@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
-import Education from './components/Education';
-import Certification from './components/Certification';
+// import Education from './components/Education';
+// import Certification from './components/Certification';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -22,9 +22,6 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HomePage />
-          <Skills />
-          <Projects />'
-          <Contact />'
         </Route>
         {/* <Route exact path="/education">
           <Education />

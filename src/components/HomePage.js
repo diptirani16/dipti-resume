@@ -16,7 +16,7 @@ function Home() {
                     </Typography>
                 </Grid>
                 <Grid item sx={{ mt: 4  }}>
-                    <Button href="#" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' }}>
+                    <Button href="#" target="_blank" variant="outlined" sx={{ padding: "2vh 6vw",  color: '#90a0d9', borderColor: '#90a0d9' , mb: 10}}>
                         Download CV
                     </Button>
                 </Grid>

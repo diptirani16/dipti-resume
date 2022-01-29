@@ -22,16 +22,19 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HomePage />
+          <Skills />
+          <Projects />'
+          <Contact />'
         </Route>
-        <Route exact path="/education">
+        {/* <Route exact path="/education">
           <Education />
-        </Route>
+        </Route> */}
         <Route exact path="/skills">
           <Skills />
         </Route>
-        <Route exact path="/certification">
+        {/* <Route exact path="/certification">
           <Certification />
-        </Route>
+        </Route> */}
         <Route exact path="/projects">
           <Projects />
         </Route>

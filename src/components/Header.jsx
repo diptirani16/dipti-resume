@@ -12,25 +12,25 @@ function Header() {
             "name": "Home",
             "route": "/"
         },
+        // {
+        //     "name": "Education",
+        //     'route': "/education"
+        // },
+        // {
+        //     "name": "Certification",
+        //     'route': "/certification"
+        // },
         {
-            "name": "Education",
-            'route': "/education"
-        },
-        {
-            "name": "Certification",
-            'route': "/certification"
-        },
-        {
-            "name": "Projects",
-            'route': "/projects"
+            "name": "Experience",
+            'route': "/experience"
         },
         {
             "name": "Technologies",
             'route': "/skills"
         },
         {
-            "name": "Experience",
-            'route': "/experience"
+            "name": "Projects",
+            'route': "/projects"
         },
         {
             "name": "Contact",

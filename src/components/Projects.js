@@ -34,7 +34,7 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ display: 'flex', justifyContent: "end" }}>
-                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} variant="outlined" href="https://github.com/diptirani16/covid19-india" target="_blank">Github</Button>
+                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} href="https://github.com/diptirani16/covid19-india" target="_blank">Github</Button>
                         </CardActions>
                     </Card>
                 </Grid>
@@ -54,7 +54,7 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ display: 'flex', justifyContent: "end" }}>
-                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} variant="outlined" href="https://github.com/diptirani16/Indian-Railway" target="_blank">Github</Button>
+                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} href="https://github.com/diptirani16/Indian-Railway" target="_blank">Github</Button>
                         </CardActions>
                     </Card>
                 </Grid>
@@ -74,7 +74,7 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ display: 'flex', justifyContent: "end" }}>
-                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} variant="outlined" href="https://github.com/diptirani16/Expense-Manager" target="_blank">Github</Button>
+                            <Button sx={{ color: "#5067b7", borderColor: "#5067b7" }} href="https://github.com/diptirani16/Expense-Manager" target="_blank">Github</Button>
                         </CardActions>
                     </Card>
                 </Grid>
